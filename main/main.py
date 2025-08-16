@@ -10,7 +10,7 @@ if not os.environ.get("HUGGING_FACE_API_TOKEN"):
 from langchain_community.llms import HuggingFaceHub
 
 llm = HuggingFaceHub(
-    repo_id="",
+    repo_id="fal-ai",
     model_kwargs={"temperature": 0.7, "max_length": 512}
 )
 
